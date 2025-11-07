@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Build Hotel Service with Maven
 
 on:
   push:
@@ -20,6 +20,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build User-Service
-        working-directory: ./User-Service   # 👈 Path to your pom.xml
+      - name: Build HotelService
+        working-directory: ./HotelService/HotelService   # 👈 Path to pom.xml
         run: mvn clean package -DskipTests
