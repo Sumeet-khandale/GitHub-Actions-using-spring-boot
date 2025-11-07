@@ -1,14 +1,17 @@
 # GitHub-Actions-using-spring-boot
 
 ---
+
 ```markdown
-# Hotel Service - Spring Boot + GitHub Actions  
+#  Hotel Service - Spring Boot + GitHub Actions
+ 
 This is a simple Spring Boot microservice called Hotel Service.  
 It is built using Java 17, Maven, and GitHub Actions for CI (Continuous Integration).  
 
+
 ---
 
-## Tech Stack
+##  Tech Stack
 - Java 17
 - Spring Boot
 - Maven
@@ -16,23 +19,27 @@ It is built using Java 17, Maven, and GitHub Actions for CI (Continuous Integrat
 
 ---
 
-## Project Structure
-HotelService/  
-├── pom.xml  
-├── src/  
-└── .github/  
-  └── workflows/  
-   └── first-actions.yml  
+##  Project Structure
+```
+
+HotelService/
+├── pom.xml
+├── src/
+└── .github/
+└── workflows/
+└── first-actions.yml
+
+````
 
 ---
 
-## Run Locally  
-1. Clone the repository  
+##  Run Locally
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/Sumeet-khandale/GitHub-Actions-using-spring-boot.git
    cd GitHub-Actions-using-spring-boot/HotelService
 ```
-````
 
 2. **Build the project**
 
@@ -109,6 +116,12 @@ You can see the progress in the **“Actions” tab** of your GitHub repo.
 ---
 
 ✅ **That’s it!**
-Your project will automatically build on every code push using GitHub Actions 
+Your project will automatically build on every code push using GitHub Actions 🎉
 
 ```
+
+---
+
+The End
+```
+
