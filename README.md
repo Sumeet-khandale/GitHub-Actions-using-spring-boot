@@ -8,7 +8,6 @@
 This is a simple Spring Boot microservice called Hotel Service.  
 It is built using Java 17, Maven, and GitHub Actions for CI (Continuous Integration).  
 
-
 ---
 
 ## ⚙️ Tech Stack
@@ -21,15 +20,13 @@ It is built using Java 17, Maven, and GitHub Actions for CI (Continuous Integrat
 
 ## 📁 Project Structure
 ```
-
+````
 HotelService/
 ├── pom.xml
 ├── src/
 └── .github/
 └── workflows/
 └── first-actions.yml
-
-````
 
 ---
 
@@ -38,8 +35,10 @@ HotelService/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Sumeet-khandale/GitHub-Actions-using-spring-boot.git
-   cd GitHub-Actions-using-spring-boot/HotelService
+  
 ```
+ cd GitHub-Actions-using-spring-boot/HotelService
+
 ````
 
 2. **Build the project**
