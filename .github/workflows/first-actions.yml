@@ -1,4 +1,4 @@
-name: Build Hotel Service with Maven
+name: First GitHub Action - Build Spring Boot Project
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up JDK 17
@@ -20,6 +20,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build HotelService
-        working-directory: ./HotelService/HotelService   # 👈 Path to pom.xml
+      - name: Build with Maven
+        working-directory: ./HotelService   # 👈 Folder that contains your pom.xml
         run: mvn clean package -DskipTests
