@@ -10,7 +10,7 @@ It is built using Java 17, Maven, and GitHub Actions for CI (Continuous Integrat
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - Java 17
 - Spring Boot
 - Maven
@@ -18,7 +18,7 @@ It is built using Java 17, Maven, and GitHub Actions for CI (Continuous Integrat
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 ````
 HotelService/
@@ -30,9 +30,8 @@ HotelService/
 
 ---
 
+
 ##  Run Locally
-
-
 ````
 1. **Clone the repository**
    ```bash
@@ -62,7 +61,7 @@ HotelService/
 
 ---
 
-## 🤖 GitHub Actions Workflow
+##  GitHub Actions Workflow
 
 File: `.github/workflows/first-actions.yml`
 
@@ -96,7 +95,7 @@ jobs:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 * Every time you **push code** or **create a pull request** to the `main` branch,
   GitHub Actions automatically runs:
@@ -109,15 +108,15 @@ You can see the progress in the **“Actions” tab** of your GitHub repo.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Sumeet Khandale**
 🔗 [GitHub Profile](https://github.com/Sumeet-khandale)
 
 ---
 
-✅ **That’s it!**
-Your project will automatically build on every code push using GitHub Actions 🎉
+ **That’s it!**
+Your project will automatically build on every code push using GitHub Actions 
 
 ```
 
