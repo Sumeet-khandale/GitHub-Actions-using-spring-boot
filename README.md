@@ -31,14 +31,15 @@ HotelService/
 ---
 
 ##  Run Locally
+
+
 ````
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Sumeet-khandale/GitHub-Actions-using-spring-boot.git
   
-```
+```bash
  cd GitHub-Actions-using-spring-boot/HotelService
-
 ````
 
 2. **Build the project**
