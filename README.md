@@ -39,7 +39,6 @@ HotelService/
    ```bash
    git clone https://github.com/Sumeet-khandale/GitHub-Actions-using-spring-boot.git
    cd GitHub-Actions-using-spring-boot/HotelService
- ```
 
 ````
 
